@@ -4,18 +4,18 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 $(document).ready(function() {
 (function(){$('a[href^="#"]').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-$('.js-12').unveil(50);
-$('.js-13').unveil(50);
 var wl = new woolite();
 wl.init();
-wl.addAnimation($('.js-11')[0], "1.00s", "0.00s", 1, 100);
-wl.addAnimation($('.js-12')[0], "1.00s", "2.00s", 1, 100);
-wl.addAnimation($('.js-13')[0], "1.00s", "1.00s", 1, 100);
-wl.addAnimation($('.js-14')[0], "1.00s", "3.50s", 1, 100);
-wl.addAnimation($('.js-15')[0], "1.00s", "6.00s", 1, 100);
-wl.addAnimation($('.js-16')[0], "1.00s", "7.80s", 1, 100);
-wl.addAnimation($('.js-17')[0], "1.00s", "11.00s", 1, 100);
-wl.addAnimation($('.js-18')[0], "1.00s", "8.80s", 1, 100);
+wl.addAnimation($('.js')[0], "1.00s", "0.00s", 1, 100);
+wl.addAnimation($('.js-2')[0], "1.50s", "1.00s", 1, 100);
+wl.addAnimation($('.js-3')[0], "1.00s", "2.50s", 1, 100);
+wl.addAnimation($('.js-4')[0], "1.00s", "10.00s", 1, 100);
+wl.addAnimation($('.js-5')[0], "1.00s", "4.00s", 1, 100);
+wl.addAnimation($('.js-6')[0], "1.00s", "4.20s", 1, 100);
+wl.addAnimation($('.js-7')[0], "1.00s", "4.40s", 1, 100);
+wl.addAnimation($('.js-8')[0], "1.00s", "4.60s", 1, 100);
+wl.addAnimation($('.js-9')[0], "1.00s", "11.50s", 1, 100);
+wl.addAnimation($('.js-10')[0], "1.00s", "6.50s", 1, 100);
 wl.start();
 
 });
